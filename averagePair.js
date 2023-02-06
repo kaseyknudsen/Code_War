@@ -7,6 +7,7 @@ average target.
 /* use multiple pointers */
 
 const averagePair = (arr, num) => {
+  arr.sort()
   let left = 0;
   let right = arr.length - 1;
   while (left < right) {
